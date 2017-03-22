@@ -1,0 +1,794 @@
+2017-03-12 03:59:36.450+0000 WARN  [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 3059822592 bytes will be used instead. 
+2017-03-12 03:59:36.612+0000 INFO  [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2017-03-12 03:59:36.881+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-03-12 03:59:36.934+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-03-12 03:59:36.934+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-03-12 03:59:36.934+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
+2017-03-12 03:59:36.935+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=false
+2017-03-12 03:59:36.935+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.http.listen_address=localhost:7474
+2017-03-12 03:59:36.935+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/home/vijeta/Desktop/huff_post/db/neo4j/development
+2017-03-12 03:59:36.935+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
+2017-03-12 03:59:36.935+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=false
+2017-03-12 03:59:36.935+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.jvm.additional=-Dunsupported.dbms.udc.source=tarball
+2017-03-12 03:59:36.936+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.windows_service_name=neo4j
+2017-03-12 03:59:36.936+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.https.listen_address=localhost:7473
+2017-03-12 03:59:36.936+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.listen_address=localhost:7472
+2017-03-12 03:59:36.936+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2017-03-12 03:59:36.936+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
+2017-03-12 03:59:36.936+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-03-12 03:59:36.937+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-03-12 03:59:36.937+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-03-12 03:59:36.937+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-03-12 03:59:36.937+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-03-12 03:59:36.948+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-03-12 03:59:36.949+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-03-12 03:59:36.949+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-03-12 03:59:36.949+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-03-12 03:59:36.949+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-03-12 03:59:36.949+0000 INFO  [o.n.k.i.DiagnosticsManager] LINUX_SCHEDULERS
+2017-03-12 03:59:36.949+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-03-12 03:59:36.949+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-03-12 03:59:36.958+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 7.60 GB
+2017-03-12 03:59:36.958+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 999.91 MB
+2017-03-12 03:59:36.959+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 4.73 GB
+2017-03-12 03:59:36.959+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 2.87 GB
+2017-03-12 03:59:36.959+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 2.87 GB
+2017-03-12 03:59:36.960+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-03-12 03:59:36.960+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 85.36 MB
+2017-03-12 03:59:36.960+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 122.00 MB
+2017-03-12 03:59:36.960+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 1.90 GB
+2017-03-12 03:59:36.994+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space]
+2017-03-12 03:59:36.995+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2017-03-12 03:59:36.997+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=3.81 MB, used=3.75 MB, max=240.00 MB, threshold=0.00 B
+2017-03-12 03:59:36.997+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=11.38 MB, used=10.61 MB, max=-1.00 B, threshold=0.00 B
+2017-03-12 03:59:36.998+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=1.63 MB, used=1.39 MB, max=1.00 GB, threshold=0.00 B
+2017-03-12 03:59:36.999+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=19.00 MB, used=7.00 MB, max=-1.00 B, threshold=?
+2017-03-12 03:59:37.000+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=1.00 MB, used=1.00 MB, max=-1.00 B, threshold=?
+2017-03-12 03:59:37.000+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=102.00 MB, used=27.92 MB, max=1.90 GB, threshold=0.00 B
+2017-03-12 03:59:37.000+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-03-12 03:59:37.001+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Linux; version: 3.13.0-32-generic; arch: amd64; cpus: 4
+2017-03-12 03:59:37.002+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 4096
+2017-03-12 03:59:37.002+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 90
+2017-03-12 03:59:37.003+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 6791@vijeta
+2017-03-12 03:59:37.003+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-03-12 03:59:37.004+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Asia/Kolkata
+2017-03-12 03:59:37.004+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-03-12 03:59:37.004+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-03-12 03:59:37.004+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-03-12 03:59:37.004+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 25.92-b14
+2017-03-12 03:59:37.012+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-03-12 03:59:37.016+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:+AlwaysPreTouch, -XX:+UnlockExperimentalVMOptions, -XX:+TrustFinalNonStaticFields, -XX:+DisableExplicitGC, -Djdk.tls.ephemeralDHKeySize=2048, -Dunsupported.dbms.udc.source=tarball, -Dfile.encoding=UTF-8]
+2017-03-12 03:59:37.017+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-03-12 03:59:37.019+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/scala-library-2.11.8.jar
+2017-03-12 03:59:37.019+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jackson-mapper-asl-1.9.13.jar
+2017-03-12 03:59:37.019+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/parboiled-core-1.1.7.jar
+2017-03-12 03:59:37.019+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-lucene-upgrade-3.1.2.jar
+2017-03-12 03:59:37.019+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jetty-xml-9.2.9.v20150224.jar
+2017-03-12 03:59:37.019+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/netty-all-4.1.8.Final.jar
+2017-03-12 03:59:37.020+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/local/java/jdk1.8.0_92/jre/lib/ext/zipfs.jar
+2017-03-12 03:59:37.020+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/commons-digester-2.1.jar
+2017-03-12 03:59:37.020+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jetty-io-9.2.9.v20150224.jar
+2017-03-12 03:59:37.020+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/local/java/jdk1.8.0_92/jre/lib/ext/sunec.jar
+2017-03-12 03:59:37.020+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jetty-security-9.2.9.v20150224.jar
+2017-03-12 03:59:37.020+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/local/java/jdk1.8.0_92/jre/lib/ext/nashorn.jar
+2017-03-12 03:59:37.020+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/local/java/jdk1.8.0_92/jre/lib/ext/sunpkcs11.jar
+2017-03-12 03:59:37.020+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-bolt-3.1.2.jar
+2017-03-12 03:59:37.020+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/local/java/jdk1.8.0_92/jre/classes
+2017-03-12 03:59:37.020+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/commons-lang-2.6.jar
+2017-03-12 03:59:37.020+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-security-3.1.2.jar
+2017-03-12 03:59:37.021+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-cypher-frontend-3.1-3.1.2.jar
+2017-03-12 03:59:37.021+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/local/java/jdk1.8.0_92/jre/lib/ext/dnsns.jar
+2017-03-12 03:59:37.021+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/lucene-codecs-5.5.0.jar
+2017-03-12 03:59:37.021+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-server-3.1.2.jar
+2017-03-12 03:59:37.021+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jetty-util-9.2.9.v20150224.jar
+2017-03-12 03:59:37.021+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/javax.servlet-api-3.1.0.jar
+2017-03-12 03:59:37.021+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/plugins/*
+2017-03-12 03:59:37.021+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/bcpkix-jdk15on-1.53.jar
+2017-03-12 03:59:37.021+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-cypher-compiler-3.0-3.0.8.jar
+2017-03-12 03:59:37.021+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/commons-compress-1.12.jar
+2017-03-12 03:59:37.021+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jackson-jaxrs-1.9.13.jar
+2017-03-12 03:59:37.021+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/commons-configuration-1.10.jar
+2017-03-12 03:59:37.021+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/rhino-1.7R4.jar
+2017-03-12 03:59:37.021+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/local/java/jdk1.8.0_92/jre/lib/sunrsasign.jar
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-import-tool-3.1.2.jar
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jersey-server-1.19.jar
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/concurrentlinkedhashmap-lru-1.4.2.jar
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/bcprov-jdk15on-1.53.jar
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jetty-server-9.2.9.v20150224.jar
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-graph-matching-3.1.2.jar
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/local/java/jdk1.8.0_92/jre/lib/jfr.jar
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-shell-3.1.2.jar
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-lucene-index-3.1.2.jar
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/asm-5.0.4.jar
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/lucene-analyzers-common-5.5.0.jar
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/commons-logging-1.1.1.jar
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/local/java/jdk1.8.0_92/jre/lib/ext/cldrdata.jar
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/plugins/
+2017-03-12 03:59:37.022+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-jmx-3.1.2.jar
+2017-03-12 03:59:37.023+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-codegen-3.1.2.jar
+2017-03-12 03:59:37.023+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-udc-3.1.2.jar
+2017-03-12 03:59:37.023+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jackson-core-asl-1.9.13.jar
+2017-03-12 03:59:37.023+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/local/java/jdk1.8.0_92/jre/lib/ext/jfxrt.jar
+2017-03-12 03:59:37.023+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/server-api-3.1.2.jar
+2017-03-12 03:59:37.023+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/opencsv-2.3.jar
+2017-03-12 03:59:37.023+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-cypher-frontend-2.3-2.3.9.jar
+2017-03-12 03:59:37.023+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-csv-3.1.2.jar
+2017-03-12 03:59:37.023+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-command-line-3.1.2.jar
+2017-03-12 03:59:37.023+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/lucene-queryparser-5.5.0.jar
+2017-03-12 03:59:37.023+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-collections-3.1.2.jar
+2017-03-12 03:59:37.023+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-io-3.1.2.jar
+2017-03-12 03:59:37.023+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jline-2.12.jar
+2017-03-12 03:59:37.024+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jetty-webapp-9.2.9.v20150224.jar
+2017-03-12 03:59:37.024+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jersey-multipart-1.19.jar
+2017-03-12 03:59:37.024+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-common-3.1.2.jar
+2017-03-12 03:59:37.024+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-cypher-frontend-3.0-3.0.8.jar
+2017-03-12 03:59:37.024+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/local/java/jdk1.8.0_92/jre/lib/ext/jaccess.jar
+2017-03-12 03:59:37.024+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/scala-reflect-2.11.8.jar
+2017-03-12 03:59:37.024+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-primitive-collections-3.1.2.jar
+2017-03-12 03:59:37.024+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/parboiled-scala_2.11-1.1.7.jar
+2017-03-12 03:59:37.025+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/local/java/jdk1.8.0_92/jre/lib/resources.jar
+2017-03-12 03:59:37.025+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jsr311-api-1.1.2.r612.jar
+2017-03-12 03:59:37.025+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jetty-http-9.2.9.v20150224.jar
+2017-03-12 03:59:37.025+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/lucene-core-5.5.0.jar
+2017-03-12 03:59:37.025+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-cypher-compiler-2.3-2.3.9.jar
+2017-03-12 03:59:37.025+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-kernel-3.1.2.jar
+2017-03-12 03:59:37.025+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-graphdb-api-3.1.2.jar
+2017-03-12 03:59:37.025+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jersey-servlet-1.19.jar
+2017-03-12 03:59:37.025+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-cypher-3.1.2.jar
+2017-03-12 03:59:37.025+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/local/java/jdk1.8.0_92/jre/lib/jce.jar
+2017-03-12 03:59:37.025+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/local/java/jdk1.8.0_92/jre/lib/ext/localedata.jar
+2017-03-12 03:59:37.025+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/commons-lang3-3.3.2.jar
+2017-03-12 03:59:37.026+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jetty-servlet-9.2.9.v20150224.jar
+2017-03-12 03:59:37.026+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-consistency-check-3.1.2.jar
+2017-03-12 03:59:37.026+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-browser-2.0.0-M10.jar
+2017-03-12 03:59:37.026+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/local/java/jdk1.8.0_92/jre/lib/charsets.jar
+2017-03-12 03:59:37.026+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/conf/
+2017-03-12 03:59:37.026+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/caffeine-2.3.3.jar
+2017-03-12 03:59:37.026+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/local/java/jdk1.8.0_92/jre/lib/jsse.jar
+2017-03-12 03:59:37.026+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-unsafe-3.1.2.jar
+2017-03-12 03:59:37.026+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/local/java/jdk1.8.0_92/jre/lib/rt.jar
+2017-03-12 03:59:37.026+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/commons-beanutils-1.8.3.jar
+2017-03-12 03:59:37.026+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/jersey-core-1.19.jar
+2017-03-12 03:59:37.027+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-logging-3.1.2.jar
+2017-03-12 03:59:37.027+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/mimepull-1.9.3.jar
+2017-03-12 03:59:37.027+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-resource-3.1.2.jar
+2017-03-12 03:59:37.027+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/local/java/jdk1.8.0_92/jre/lib/ext/sunjce_provider.jar
+2017-03-12 03:59:37.027+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/commons-io-2.4.jar
+2017-03-12 03:59:37.027+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-dbms-3.1.2.jar
+2017-03-12 03:59:37.027+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-graph-algo-3.1.2.jar
+2017-03-12 03:59:37.027+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/vijeta/Desktop/huff_post/db/neo4j/development/lib/neo4j-cypher-compiler-3.1-3.1.2.jar
+2017-03-12 03:59:37.027+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-03-12 03:59:37.028+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/java/packages/lib/amd64
+2017-03-12 03:59:37.028+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib64
+2017-03-12 03:59:37.028+0000 INFO  [o.n.k.i.DiagnosticsManager] /lib64
+2017-03-12 03:59:37.028+0000 INFO  [o.n.k.i.DiagnosticsManager] /lib
+2017-03-12 03:59:37.028+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib
+2017-03-12 03:59:37.028+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-03-12 03:59:37.029+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /usr/local/java/jdk1.8.0_92/jre/lib/amd64
+2017-03-12 03:59:37.029+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-03-12 03:59:37.029+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-03-12 03:59:37.029+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = IN
+2017-03-12 03:59:37.030+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-03-12 03:59:37.030+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-03-12 03:59:37.030+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /home/vijeta/Desktop/huff_post/db/neo4j/development/bin
+2017-03-12 03:59:37.030+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-03-12 03:59:37.030+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = tarball
+2017-03-12 03:59:37.030+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-03-12 03:59:37.030+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /root
+2017-03-12 03:59:37.030+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Asia/Kolkata
+2017-03-12 03:59:37.030+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-03-12 03:59:37.031+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = root
+2017-03-12 03:59:37.031+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = org.neo4j.server.CommunityEntryPoint --home-dir=/home/vijeta/Desktop/huff_post/db/neo4j/development --config-dir=/home/vijeta/Desktop/huff_post/db/neo4j/development/conf
+2017-03-12 03:59:37.031+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-03-12 03:59:37.031+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2017-03-12 03:59:37.031+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2017-03-12 03:59:37.031+0000 INFO  [o.n.k.i.DiagnosticsManager] jdk.tls.ephemeralDHKeySize = 2048
+2017-03-12 03:59:37.031+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-03-12 03:59:37.031+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2017-03-12 03:59:37.031+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-03-12 03:59:37.032+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-03-12 03:59:37.032+0000 INFO  [o.n.k.i.DiagnosticsManager] Linux scheduler information:
+2017-03-12 03:59:37.143+0000 INFO  [o.n.k.i.DiagnosticsManager] noop [deadline] cfq 
+2017-03-12 03:59:37.144+0000 INFO  [o.n.k.i.DiagnosticsManager] noop [deadline] cfq 
+2017-03-12 03:59:37.145+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.146+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.146+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.147+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.148+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.148+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.149+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.150+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.150+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.151+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.151+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.152+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.153+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.153+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.153+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.154+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.154+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.155+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.155+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.155+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.155+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.156+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.156+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.157+0000 INFO  [o.n.k.i.DiagnosticsManager] none
+2017-03-12 03:59:37.157+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-03-12 03:59:37.171+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface vboxnet1:
+2017-03-12 03:59:37.172+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:800:27ff:fe00:1%vboxnet1
+2017-03-12 03:59:37.172+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 192.168.50.1
+2017-03-12 03:59:37.172+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface docker0:
+2017-03-12 03:59:37.173+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 172.17.0.1
+2017-03-12 03:59:37.173+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface wlan0:
+2017-03-12 03:59:37.173+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:72f1:a1ff:fe91:e596%wlan0
+2017-03-12 03:59:37.173+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.150.236.29
+2017-03-12 03:59:37.173+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo:
+2017-03-12 03:59:37.173+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo
+2017-03-12 03:59:37.173+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-03-12 03:59:37.173+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-03-12 03:59:37.251+0000 INFO  [o.n.b.v.r.WorkerFactory] No SSL certificate found, generating a self-signed certificate..
+2017-03-12 03:59:40.047+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt Server extension loaded.
+2017-03-12 03:59:40.049+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt enabled on localhost:7472.
+2017-03-12 03:59:40.371+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected format 'RecordFormat:StandardV3_0[v0.A.7]' for the new store
+2017-03-12 03:59:42.250+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2017-03-12 03:59:42.807+0000 INFO  [o.n.k.NeoStoreDataSource] Opened logical log [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.transaction.db.0] version=0, lastTxId=1 (clean)
+2017-03-12 03:59:42.824+0000 WARN  [o.n.k.i.s.MetaDataStore] Missing counts store, rebuilding it.
+2017-03-12 03:59:42.954+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] Rebuilding lucene scan store, this may take a while
+2017-03-12 03:59:42.985+0000 INFO  [o.n.k.a.i.l.LuceneLabelScanStore] Lucene scan store rebuilt (roughly 0 nodes)
+2017-03-12 03:59:42.993+0000 INFO  [o.n.k.i.DatabaseHealth] Database health set to OK
+2017-03-12 03:59:44.124+0000 INFO  [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2017-03-12 03:59:44.125+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2017-03-12 03:59:44.128+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2017-03-12 03:59:44.129+0000 INFO  [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1489291181890, randomId=-1618594965426858964, storeVersion=15531981201765894, upgradeTime=1489291181890, upgradeId=1}
+2017-03-12 03:59:44.129+0000 INFO  [o.n.k.i.DiagnosticsManager] Kernel version: 3.1.2,b6d837dd0a766dfa508e9c570f8d9d2a0db0cb5d
+2017-03-12 03:59:44.133+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2017-03-12 03:59:44.140+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2017-03-12 03:59:44.140+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-03-12 03:59:44.141+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-03-12 03:59:44.141+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-03-12 03:59:44.141+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.7
+2017-03-12 03:59:44.141+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-03-12 03:59:44.141+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.7
+2017-03-12 03:59:44.141+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-03-12 03:59:44.141+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-03-12 03:59:44.141+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.7
+2017-03-12 03:59:44.142+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.7
+2017-03-12 03:59:44.142+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-03-12 03:59:44.142+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.7
+2017-03-12 03:59:44.142+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-03-12 03:59:44.142+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.7
+2017-03-12 03:59:44.142+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.7
+2017-03-12 03:59:44.142+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.7
+2017-03-12 03:59:44.142+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.7
+2017-03-12 03:59:44.142+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2017-03-12 03:59:44.143+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2017-03-12 03:59:44.143+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-03-12 03:59:44.143+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-03-12 03:59:44.143+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-03-12 03:59:44.144+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore: used=0 high=-1
+2017-03-12 03:59:44.144+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-03-12 03:59:44.144+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2017-03-12 03:59:44.144+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-03-12 03:59:44.144+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-03-12 03:59:44.145+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2017-03-12 03:59:44.145+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2017-03-12 03:59:44.145+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-03-12 03:59:44.145+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2017-03-12 03:59:44.145+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-03-12 03:59:44.146+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2017-03-12 03:59:44.146+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2017-03-12 03:59:44.146+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2017-03-12 03:59:44.146+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2017-03-12 03:59:44.146+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2017-03-12 03:59:44.146+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2017-03-12 03:59:44.147+0000 INFO  [o.n.k.i.DiagnosticsManager] Neostore records:
+2017-03-12 03:59:44.148+0000 INFO  [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1489291181890
+2017-03-12 03:59:44.149+0000 INFO  [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): -1618594965426858964
+2017-03-12 03:59:44.149+0000 INFO  [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2017-03-12 03:59:44.149+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2017-03-12 03:59:44.149+0000 INFO  [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15531981201765894
+2017-03-12 03:59:44.149+0000 INFO  [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2017-03-12 03:59:44.149+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2017-03-12 03:59:44.150+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2017-03-12 03:59:44.150+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1489291181890
+2017-03-12 03:59:44.150+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2017-03-12 03:59:44.150+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2017-03-12 03:59:44.150+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2017-03-12 03:59:44.150+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2017-03-12 03:59:44.150+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2017-03-12 03:59:44.150+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2017-03-12 03:59:44.151+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2017-03-12 03:59:44.152+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2017-03-12 03:59:44.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Transaction log:
+2017-03-12 03:59:44.154+0000 INFO  [o.n.k.i.DiagnosticsManager] No transactions found in any log
+2017-03-12 03:59:44.155+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2017-03-12 03:59:44.155+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2017-03-12 03:59:44.156+0000 INFO  [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 39488815104 / 11618553856 / 29
+Storage files: (filename : modification date - size)
+2017-03-12 03:59:44.157+0000 INFO  [o.n.k.i.DiagnosticsManager]   index:
+2017-03-12 03:59:44.158+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-12T09:29:42+0530 - 0.00 B
+2017-03-12 03:59:44.159+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore: 2017-03-12T09:29:41+0530 - 8.00 kB
+2017-03-12 03:59:44.159+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2017-03-12T09:29:42+0530 - 96.00 B
+2017-03-12 03:59:44.159+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.id: 2017-03-12T09:29:41+0530 - 9.00 B
+2017-03-12 03:59:44.160+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2017-03-12T09:29:41+0530 - 0.00 B
+2017-03-12 03:59:44.160+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2017-03-12T09:29:41+0530 - 9.00 B
+2017-03-12 03:59:44.160+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2017-03-12T09:29:41+0530 - 8.00 kB
+2017-03-12 03:59:44.161+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2017-03-12T09:29:41+0530 - 9.00 B
+2017-03-12 03:59:44.161+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2017-03-12T09:29:40+0530 - 0.00 B
+2017-03-12 03:59:44.161+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2017-03-12T09:29:40+0530 - 9.00 B
+2017-03-12 03:59:44.162+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2017-03-12T09:29:40+0530 - 8.00 kB
+2017-03-12 03:59:44.162+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2017-03-12T09:29:40+0530 - 9.00 B
+2017-03-12 03:59:44.162+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2017-03-12T09:29:41+0530 - 0.00 B
+2017-03-12 03:59:44.163+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2017-03-12T09:29:40+0530 - 8.00 kB
+2017-03-12 03:59:44.163+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2017-03-12T09:29:41+0530 - 9.00 B
+2017-03-12 03:59:44.163+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2017-03-12T09:29:41+0530 - 9.00 B
+2017-03-12 03:59:44.163+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2017-03-12T09:29:40+0530 - 0.00 B
+2017-03-12 03:59:44.164+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2017-03-12T09:29:40+0530 - 9.00 B
+2017-03-12 03:59:44.164+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2017-03-12T09:29:40+0530 - 8.00 kB
+2017-03-12 03:59:44.164+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2017-03-12T09:29:40+0530 - 9.00 B
+2017-03-12 03:59:44.165+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2017-03-12T09:29:40+0530 - 8.00 kB
+2017-03-12 03:59:44.165+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2017-03-12T09:29:40+0530 - 9.00 B
+2017-03-12 03:59:44.165+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2017-03-12T09:29:41+0530 - 8.00 kB
+2017-03-12 03:59:44.166+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2017-03-12T09:29:41+0530 - 9.00 B
+2017-03-12 03:59:44.166+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2017-03-12T09:29:41+0530 - 0.00 B
+2017-03-12 03:59:44.166+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2017-03-12T09:29:41+0530 - 9.00 B
+2017-03-12 03:59:44.167+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2017-03-12T09:29:41+0530 - 0.00 B
+2017-03-12 03:59:44.167+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2017-03-12T09:29:41+0530 - 9.00 B
+2017-03-12 03:59:44.167+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2017-03-12T09:29:41+0530 - 8.00 kB
+2017-03-12 03:59:44.167+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2017-03-12T09:29:41+0530 - 9.00 B
+2017-03-12 03:59:44.168+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2017-03-12T09:29:41+0530 - 8.00 kB
+2017-03-12 03:59:44.168+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2017-03-12T09:29:41+0530 - 9.00 B
+2017-03-12 03:59:44.168+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2017-03-12T09:29:42+0530 - 16.00 B
+2017-03-12 03:59:44.169+0000 INFO  [o.n.k.i.DiagnosticsManager]   schema:
+2017-03-12 03:59:44.169+0000 INFO  [o.n.k.i.DiagnosticsManager]     label:
+2017-03-12 03:59:44.169+0000 INFO  [o.n.k.i.DiagnosticsManager]       lucene:
+2017-03-12 03:59:44.169+0000 INFO  [o.n.k.i.DiagnosticsManager]         labelStore:
+2017-03-12 03:59:44.169+0000 INFO  [o.n.k.i.DiagnosticsManager]           1:
+2017-03-12 03:59:44.170+0000 INFO  [o.n.k.i.DiagnosticsManager]             write.lock: 2017-03-12T09:29:42+0530 - 0.00 B
+2017-03-12 03:59:44.170+0000 INFO  [o.n.k.i.DiagnosticsManager]           - Total: 2017-03-12T09:29:42+0530 - 0.00 B
+2017-03-12 03:59:44.170+0000 INFO  [o.n.k.i.DiagnosticsManager]           failure-message: 2017-03-12T09:29:42+0530 - 16.00 kB
+2017-03-12 03:59:44.171+0000 INFO  [o.n.k.i.DiagnosticsManager]         - Total: 2017-03-12T09:29:42+0530 - 16.00 kB
+2017-03-12 03:59:44.171+0000 INFO  [o.n.k.i.DiagnosticsManager]       - Total: 2017-03-12T09:29:42+0530 - 16.00 kB
+2017-03-12 03:59:44.171+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2017-03-12T09:29:42+0530 - 16.00 kB
+2017-03-12 03:59:44.171+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-12T09:29:42+0530 - 16.00 kB
+2017-03-12 03:59:44.172+0000 INFO  [o.n.k.i.DiagnosticsManager]   store_lock: 2017-03-12T09:29:40+0530 - 0.00 B
+2017-03-12 03:59:44.172+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2017-03-12 03:59:47.988+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2017-03-12 03:59:50.778+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2017-03-12 04:11:53.701+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3399ms.
+2017-03-12 06:50:54.374+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Neo4j::Migrations::SchemaMigration(migration_id) [provider: {key=lucene, version=1.0}]]
+2017-03-12 06:50:54.476+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@61842391[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 06:50:54.477+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@61842391[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 06:50:54.608+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Neo4j::Migrations::SchemaMigration(migration_id) [provider: {key=lucene, version=1.0}]]
+2017-03-12 06:50:54.609+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 06:50:54.649+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 06:50:55.554+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Const(uuid) [provider: {key=lucene, version=1.0}]]
+2017-03-12 06:50:55.612+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@1e20722e[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 06:50:55.612+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@1e20722e[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 06:50:55.670+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Const(uuid) [provider: {key=lucene, version=1.0}]]
+2017-03-12 06:50:55.671+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 06:50:55.682+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 06:50:55.958+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Neo4j::Migrations::SchemaMigration(migration_id) with 1 unique values in sample of avg size 1 taken from index containing 1 entries
+2017-03-12 06:50:56.176+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [12]:  Starting check pointing...
+2017-03-12 06:50:56.176+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [12]:  Starting store flush...
+2017-03-12 06:50:56.660+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 12 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 06:50:56.661+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 12 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 06:50:56.955+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [12]:  Store flush completed
+2017-03-12 06:50:56.955+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [12]:  Starting appending check point entry into the tx log...
+2017-03-12 06:50:56.999+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [12]:  Appending check point entry into the tx log completed
+2017-03-12 06:50:56.999+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [12]:  Check pointing completed
+2017-03-12 06:50:56.999+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 06:50:56.999+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 06:53:58.691+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:PoliticalParty(uuid) [provider: {key=lucene, version=1.0}]]
+2017-03-12 06:53:58.747+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@8ffd8c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 06:53:58.747+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@8ffd8c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 06:53:58.820+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:PoliticalParty(uuid) [provider: {key=lucene, version=1.0}]]
+2017-03-12 06:53:58.821+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 06:53:58.834+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 06:54:05.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Neo4j::Migrations::SchemaMigration(migration_id) with 2 unique values in sample of avg size 2 taken from index containing 2 entries
+2017-03-12 06:55:15.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Const(uuid) with 1 unique values in sample of avg size 1 taken from index containing 1 entries
+2017-03-12 06:55:57.005+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [19]:  Starting check pointing...
+2017-03-12 06:55:57.006+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [19]:  Starting store flush...
+2017-03-12 06:55:57.611+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 19 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 06:55:57.613+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 19 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 06:55:57.795+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [19]:  Store flush completed
+2017-03-12 06:55:57.795+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [19]:  Starting appending check point entry into the tx log...
+2017-03-12 06:55:57.832+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [19]:  Appending check point entry into the tx log completed
+2017-03-12 06:55:57.832+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [19]:  Check pointing completed
+2017-03-12 06:55:57.833+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 06:55:57.833+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 06:56:35.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :PoliticalParty(uuid) with 2 unique values in sample of avg size 2 taken from index containing 2 entries
+2017-03-12 07:00:57.839+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [24]:  Starting check pointing...
+2017-03-12 07:00:57.839+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [24]:  Starting store flush...
+2017-03-12 07:00:58.299+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 24 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 07:00:58.301+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 24 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 07:00:58.478+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [24]:  Store flush completed
+2017-03-12 07:00:58.478+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [24]:  Starting appending check point entry into the tx log...
+2017-03-12 07:00:58.520+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [24]:  Appending check point entry into the tx log completed
+2017-03-12 07:00:58.521+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [24]:  Check pointing completed
+2017-03-12 07:00:58.521+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 07:00:58.521+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 07:01:03.618+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Candidate(uuid) [provider: {key=lucene, version=1.0}]]
+2017-03-12 07:01:03.664+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@24b6d328[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 07:01:03.665+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@24b6d328[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 07:01:03.735+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Candidate(uuid) [provider: {key=lucene, version=1.0}]]
+2017-03-12 07:01:03.735+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 07:01:03.747+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 07:01:05.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Neo4j::Migrations::SchemaMigration(migration_id) with 3 unique values in sample of avg size 3 taken from index containing 3 entries
+2017-03-12 07:05:58.527+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [29]:  Starting check pointing...
+2017-03-12 07:05:58.527+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [29]:  Starting store flush...
+2017-03-12 07:05:59.119+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 29 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 07:05:59.122+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 29 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 07:05:59.283+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [29]:  Store flush completed
+2017-03-12 07:05:59.284+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [29]:  Starting appending check point entry into the tx log...
+2017-03-12 07:05:59.330+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [29]:  Appending check point entry into the tx log completed
+2017-03-12 07:05:59.330+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [29]:  Check pointing completed
+2017-03-12 07:05:59.331+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 07:05:59.331+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 07:08:35.101+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Post(uuid) [provider: {key=lucene, version=1.0}]]
+2017-03-12 07:08:35.201+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@5abff600[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 07:08:35.201+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@5abff600[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 07:08:35.261+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Post(uuid) [provider: {key=lucene, version=1.0}]]
+2017-03-12 07:08:35.261+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 07:08:35.272+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 07:08:35.622+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Agenda(uuid) [provider: {key=lucene, version=1.0}]]
+2017-03-12 07:08:35.667+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@30efe242[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 07:08:35.668+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@30efe242[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 07:08:35.728+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Agenda(uuid) [provider: {key=lucene, version=1.0}]]
+2017-03-12 07:08:35.728+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 07:08:35.738+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 07:08:35.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Neo4j::Migrations::SchemaMigration(migration_id) with 5 unique values in sample of avg size 5 taken from index containing 5 entries
+2017-03-12 07:08:36.200+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:User(uuid) [provider: {key=lucene, version=1.0}]]
+2017-03-12 07:08:36.234+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@4b413ef0[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 07:08:36.234+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@4b413ef0[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 07:08:36.360+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:User(uuid) [provider: {key=lucene, version=1.0}]]
+2017-03-12 07:08:36.360+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 07:08:36.374+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 07:08:45.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Neo4j::Migrations::SchemaMigration(migration_id) with 6 unique values in sample of avg size 6 taken from index containing 6 entries
+2017-03-12 07:10:59.337+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [44]:  Starting check pointing...
+2017-03-12 07:10:59.337+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [44]:  Starting store flush...
+2017-03-12 07:11:00.126+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 44 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 07:11:00.128+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 44 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 07:11:00.276+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [44]:  Store flush completed
+2017-03-12 07:11:00.276+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [44]:  Starting appending check point entry into the tx log...
+2017-03-12 07:11:00.314+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [44]:  Appending check point entry into the tx log completed
+2017-03-12 07:11:00.314+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [44]:  Check pointing completed
+2017-03-12 07:11:00.315+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 07:11:00.315+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 07:14:04.317+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:UserToPost(uuid) [provider: {key=lucene, version=1.0}]]
+2017-03-12 07:14:04.363+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@50e10e4a[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 07:14:04.363+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@50e10e4a[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2017-03-12 07:14:04.442+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:UserToPost(uuid) [provider: {key=lucene, version=1.0}]]
+2017-03-12 07:14:04.442+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 07:14:04.454+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2017-03-12 07:14:05.952+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Neo4j::Migrations::SchemaMigration(migration_id) with 7 unique values in sample of avg size 7 taken from index containing 7 entries
+2017-03-12 07:16:00.320+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [49]:  Starting check pointing...
+2017-03-12 07:16:00.320+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [49]:  Starting store flush...
+2017-03-12 07:16:01.182+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 49 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 07:16:01.184+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 49 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 07:16:01.369+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [49]:  Store flush completed
+2017-03-12 07:16:01.369+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [49]:  Starting appending check point entry into the tx log...
+2017-03-12 07:16:01.403+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [49]:  Appending check point entry into the tx log completed
+2017-03-12 07:16:01.403+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [49]:  Check pointing completed
+2017-03-12 07:16:01.404+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 07:16:01.404+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 07:37:55.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Const(uuid) with 2 unique values in sample of avg size 2 taken from index containing 2 entries
+2017-03-12 07:38:01.427+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [51]:  Starting check pointing...
+2017-03-12 07:38:01.427+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [51]:  Starting store flush...
+2017-03-12 07:38:02.331+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 51 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 07:38:02.333+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 51 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 07:38:02.407+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [51]:  Store flush completed
+2017-03-12 07:38:02.407+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [51]:  Starting appending check point entry into the tx log...
+2017-03-12 07:38:02.464+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [51]:  Appending check point entry into the tx log completed
+2017-03-12 07:38:02.464+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [51]:  Check pointing completed
+2017-03-12 07:38:02.464+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 07:38:02.464+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 07:38:05.952+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Const(uuid) with 3 unique values in sample of avg size 3 taken from index containing 3 entries
+2017-03-12 07:38:15.952+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Const(uuid) with 5 unique values in sample of avg size 5 taken from index containing 5 entries
+2017-03-12 07:39:15.952+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Agenda(uuid) with 1 unique values in sample of avg size 1 taken from index containing 1 entries
+2017-03-12 07:39:25.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Agenda(uuid) with 2 unique values in sample of avg size 2 taken from index containing 2 entries
+2017-03-12 07:39:35.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Agenda(uuid) with 3 unique values in sample of avg size 3 taken from index containing 3 entries
+2017-03-12 07:40:25.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :PoliticalParty(uuid) with 3 unique values in sample of avg size 3 taken from index containing 3 entries
+2017-03-12 07:43:02.470+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Starting check pointing...
+2017-03-12 07:43:02.470+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Starting store flush...
+2017-03-12 07:43:03.671+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 59 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 07:43:03.677+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 59 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 07:43:03.775+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Store flush completed
+2017-03-12 07:43:03.775+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Starting appending check point entry into the tx log...
+2017-03-12 07:43:03.814+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Appending check point entry into the tx log completed
+2017-03-12 07:43:03.814+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Check pointing completed
+2017-03-12 07:43:03.814+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 07:43:03.814+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 07:46:51.697+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-03-12 07:46:51.703+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-03-12 07:48:03.820+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [74]:  Starting check pointing...
+2017-03-12 07:48:03.820+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [74]:  Starting store flush...
+2017-03-12 07:48:04.335+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 74 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 07:48:04.338+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 74 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 07:48:04.426+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [74]:  Store flush completed
+2017-03-12 07:48:04.426+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [74]:  Starting appending check point entry into the tx log...
+2017-03-12 07:48:04.467+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [74]:  Appending check point entry into the tx log completed
+2017-03-12 07:48:04.467+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [74]:  Check pointing completed
+2017-03-12 07:48:04.467+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 07:48:04.467+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 07:53:04.473+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [75]:  Starting check pointing...
+2017-03-12 07:53:04.473+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [75]:  Starting store flush...
+2017-03-12 07:53:05.031+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 75 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 07:53:05.033+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 75 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 07:53:05.109+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [75]:  Store flush completed
+2017-03-12 07:53:05.110+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [75]:  Starting appending check point entry into the tx log...
+2017-03-12 07:53:05.175+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [75]:  Appending check point entry into the tx log completed
+2017-03-12 07:53:05.175+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [75]:  Check pointing completed
+2017-03-12 07:53:05.175+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 07:53:05.175+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 08:23:55.207+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [77]:  Starting check pointing...
+2017-03-12 08:23:55.207+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [77]:  Starting store flush...
+2017-03-12 08:23:55.959+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Candidate(uuid) with 1 unique values in sample of avg size 1 taken from index containing 1 entries
+2017-03-12 08:23:56.100+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 77 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 08:23:56.109+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 77 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 08:23:56.237+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [77]:  Store flush completed
+2017-03-12 08:23:56.238+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [77]:  Starting appending check point entry into the tx log...
+2017-03-12 08:23:56.276+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [77]:  Appending check point entry into the tx log completed
+2017-03-12 08:23:56.276+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [77]:  Check pointing completed
+2017-03-12 08:23:56.276+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 08:23:56.277+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 08:26:45.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Candidate(uuid) with 2 unique values in sample of avg size 2 taken from index containing 2 entries
+2017-03-12 08:27:17.575+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-03-12 08:27:17.581+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-03-12 08:28:56.282+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [81]:  Starting check pointing...
+2017-03-12 08:28:56.283+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [81]:  Starting store flush...
+2017-03-12 08:28:57.218+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 81 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 08:28:57.221+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 81 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 08:28:57.374+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [81]:  Store flush completed
+2017-03-12 08:28:57.374+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [81]:  Starting appending check point entry into the tx log...
+2017-03-12 08:28:57.417+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [81]:  Appending check point entry into the tx log completed
+2017-03-12 08:28:57.417+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [81]:  Check pointing completed
+2017-03-12 08:28:57.418+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 08:28:57.418+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 08:30:23.589+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH path = (a)--(o)
+WHERE id(a)= 18
+AND NOT (id(o) IN[])
+RETURN path, size((a)--()) as c
+ORDER BY id(o)
+LIMIT 100
+2017-03-12 08:33:57.423+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [87]:  Starting check pointing...
+2017-03-12 08:33:57.423+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [87]:  Starting store flush...
+2017-03-12 08:33:57.958+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 87 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 08:33:57.960+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 87 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 08:33:58.080+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [87]:  Store flush completed
+2017-03-12 08:33:58.080+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [87]:  Starting appending check point entry into the tx log...
+2017-03-12 08:33:58.113+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [87]:  Appending check point entry into the tx log completed
+2017-03-12 08:33:58.113+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [87]:  Check pointing completed
+2017-03-12 08:33:58.113+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 08:33:58.113+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 08:37:05.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Candidate(uuid) with 3 unique values in sample of avg size 3 taken from index containing 3 entries
+2017-03-12 08:37:45.952+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Candidate(uuid) with 4 unique values in sample of avg size 4 taken from index containing 4 entries
+2017-03-12 08:38:58.119+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [92]:  Starting check pointing...
+2017-03-12 08:38:58.119+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [92]:  Starting store flush...
+2017-03-12 08:38:59.025+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 92 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 08:38:59.027+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 92 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 08:38:59.150+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [92]:  Store flush completed
+2017-03-12 08:38:59.150+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [92]:  Starting appending check point entry into the tx log...
+2017-03-12 08:38:59.212+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [92]:  Appending check point entry into the tx log completed
+2017-03-12 08:38:59.213+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [92]:  Check pointing completed
+2017-03-12 08:38:59.213+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 08:38:59.213+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 08:43:59.218+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [94]:  Starting check pointing...
+2017-03-12 08:43:59.218+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [94]:  Starting store flush...
+2017-03-12 08:43:59.853+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 94 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 08:43:59.856+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 94 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 08:43:59.933+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [94]:  Store flush completed
+2017-03-12 08:43:59.933+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [94]:  Starting appending check point entry into the tx log...
+2017-03-12 08:43:59.964+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [94]:  Appending check point entry into the tx log completed
+2017-03-12 08:43:59.964+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [94]:  Check pointing completed
+2017-03-12 08:43:59.964+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 08:43:59.964+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 08:45:25.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Candidate(uuid) with 5 unique values in sample of avg size 5 taken from index containing 5 entries
+2017-03-12 08:45:45.952+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Candidate(uuid) with 6 unique values in sample of avg size 6 taken from index containing 6 entries
+2017-03-12 08:47:02.014+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-03-12 08:47:02.018+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2017-03-12 08:48:55.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Candidate(uuid) with 7 unique values in sample of avg size 7 taken from index containing 7 entries
+2017-03-12 08:48:59.970+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [101]:  Starting check pointing...
+2017-03-12 08:48:59.970+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [101]:  Starting store flush...
+2017-03-12 08:49:00.870+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 101 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 08:49:00.872+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 101 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 08:49:00.984+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [101]:  Store flush completed
+2017-03-12 08:49:00.984+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [101]:  Starting appending check point entry into the tx log...
+2017-03-12 08:49:01.057+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [101]:  Appending check point entry into the tx log completed
+2017-03-12 08:49:01.057+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [101]:  Check pointing completed
+2017-03-12 08:49:01.057+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 08:49:01.057+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 08:49:25.952+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Candidate(uuid) with 8 unique values in sample of avg size 8 taken from index containing 8 entries
+2017-03-12 08:54:01.063+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [108]:  Starting check pointing...
+2017-03-12 08:54:01.063+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [108]:  Starting store flush...
+2017-03-12 08:54:02.256+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 108 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 08:54:02.258+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 108 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 08:54:02.397+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [108]:  Store flush completed
+2017-03-12 08:54:02.398+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [108]:  Starting appending check point entry into the tx log...
+2017-03-12 08:54:02.433+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [108]:  Appending check point entry into the tx log completed
+2017-03-12 08:54:02.433+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [108]:  Check pointing completed
+2017-03-12 08:54:02.433+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 08:54:02.433+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 09:07:42.448+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [115]:  Starting check pointing...
+2017-03-12 09:07:42.448+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [115]:  Starting store flush...
+2017-03-12 09:07:43.344+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 115 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 09:07:43.347+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 115 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 09:07:43.493+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [115]:  Store flush completed
+2017-03-12 09:07:43.493+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [115]:  Starting appending check point entry into the tx log...
+2017-03-12 09:07:43.532+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [115]:  Appending check point entry into the tx log completed
+2017-03-12 09:07:43.532+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [115]:  Check pointing completed
+2017-03-12 09:07:43.532+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 09:07:43.532+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 09:07:45.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Post(uuid) with 1 unique values in sample of avg size 1 taken from index containing 1 entries
+2017-03-12 09:10:35.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Post(uuid) with 2 unique values in sample of avg size 2 taken from index containing 2 entries
+2017-03-12 09:12:43.538+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [119]:  Starting check pointing...
+2017-03-12 09:12:43.538+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [119]:  Starting store flush...
+2017-03-12 09:12:44.415+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 119 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 09:12:44.419+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 119 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 09:12:44.629+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [119]:  Store flush completed
+2017-03-12 09:12:44.629+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [119]:  Starting appending check point entry into the tx log...
+2017-03-12 09:12:44.670+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [119]:  Appending check point entry into the tx log completed
+2017-03-12 09:12:44.670+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [119]:  Check pointing completed
+2017-03-12 09:12:44.670+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 09:12:44.670+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 09:13:15.952+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Post(uuid) with 3 unique values in sample of avg size 3 taken from index containing 3 entries
+2017-03-12 09:14:15.952+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Post(uuid) with 4 unique values in sample of avg size 4 taken from index containing 4 entries
+2017-03-12 09:16:15.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Post(uuid) with 5 unique values in sample of avg size 5 taken from index containing 5 entries
+2017-03-12 09:17:44.675+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [125]:  Starting check pointing...
+2017-03-12 09:17:44.675+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [125]:  Starting store flush...
+2017-03-12 09:17:45.627+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 125 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 09:17:45.630+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 125 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 09:17:45.755+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [125]:  Store flush completed
+2017-03-12 09:17:45.755+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [125]:  Starting appending check point entry into the tx log...
+2017-03-12 09:17:45.803+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [125]:  Appending check point entry into the tx log completed
+2017-03-12 09:17:45.803+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [125]:  Check pointing completed
+2017-03-12 09:17:45.803+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 09:17:45.803+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 09:18:15.952+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Post(uuid) with 6 unique values in sample of avg size 6 taken from index containing 6 entries
+2017-03-12 09:19:55.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Post(uuid) with 7 unique values in sample of avg size 7 taken from index containing 7 entries
+2017-03-12 09:20:45.952+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Post(uuid) with 8 unique values in sample of avg size 8 taken from index containing 8 entries
+2017-03-12 09:22:33.775+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH path = (a)--(o)
+WHERE id(a)= 31
+AND NOT (id(o) IN[])
+RETURN path, size((a)--()) as c
+ORDER BY id(o)
+LIMIT 100
+2017-03-12 09:22:45.809+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [135]:  Starting check pointing...
+2017-03-12 09:22:45.809+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [135]:  Starting store flush...
+2017-03-12 09:22:47.176+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 135 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 09:22:47.178+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 135 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 09:22:47.539+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [135]:  Store flush completed
+2017-03-12 09:22:47.539+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [135]:  Starting appending check point entry into the tx log...
+2017-03-12 09:22:47.618+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [135]:  Appending check point entry into the tx log completed
+2017-03-12 09:22:47.618+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [135]:  Check pointing completed
+2017-03-12 09:22:47.618+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 09:22:47.618+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 09:52:57.652+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [137]:  Starting check pointing...
+2017-03-12 09:52:57.653+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [137]:  Starting store flush...
+2017-03-12 09:52:58.152+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 137 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 09:52:58.155+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 137 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 09:52:58.272+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [137]:  Store flush completed
+2017-03-12 09:52:58.272+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [137]:  Starting appending check point entry into the tx log...
+2017-03-12 09:52:58.320+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [137]:  Appending check point entry into the tx log completed
+2017-03-12 09:52:58.320+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [137]:  Check pointing completed
+2017-03-12 09:52:58.320+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 09:52:58.320+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 09:57:15.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :User(uuid) with 1 unique values in sample of avg size 1 taken from index containing 1 entries
+2017-03-12 09:57:58.326+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [148]:  Starting check pointing...
+2017-03-12 09:57:58.326+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [148]:  Starting store flush...
+2017-03-12 09:57:59.164+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 148 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 09:57:59.165+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 148 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 09:57:59.287+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [148]:  Store flush completed
+2017-03-12 09:57:59.287+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [148]:  Starting appending check point entry into the tx log...
+2017-03-12 09:57:59.329+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [148]:  Appending check point entry into the tx log completed
+2017-03-12 09:57:59.330+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [148]:  Check pointing completed
+2017-03-12 09:57:59.330+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 09:57:59.330+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 10:07:36.251+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (post26) WHERE (ID(post26) = {ID_post26}) MATCH (post26)-[rel1:`PostAgenda`]->(result_agendas:`Agenda`) RETURN result_agendas
+2017-03-12 10:07:36.254+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (post26) WHERE (ID(post26) = {ID_post26}) MATCH (post26)-[rel1:`PostAgenda`]->(result_agendas:`Agenda`) RETURN result_agendas
+2017-03-12 10:07:39.340+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [151]:  Starting check pointing...
+2017-03-12 10:07:39.340+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [151]:  Starting store flush...
+2017-03-12 10:07:39.934+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 151 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 10:07:39.937+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 151 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 10:07:40.113+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [151]:  Store flush completed
+2017-03-12 10:07:40.113+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [151]:  Starting appending check point entry into the tx log...
+2017-03-12 10:07:40.155+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [151]:  Appending check point entry into the tx log completed
+2017-03-12 10:07:40.155+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [151]:  Check pointing completed
+2017-03-12 10:07:40.155+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 10:07:40.155+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 10:12:40.161+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [154]:  Starting check pointing...
+2017-03-12 10:12:40.161+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [154]:  Starting store flush...
+2017-03-12 10:12:40.648+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 154 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 10:12:40.649+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 154 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 10:12:40.741+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [154]:  Store flush completed
+2017-03-12 10:12:40.741+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [154]:  Starting appending check point entry into the tx log...
+2017-03-12 10:12:40.780+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [154]:  Appending check point entry into the tx log completed
+2017-03-12 10:12:40.780+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [154]:  Check pointing completed
+2017-03-12 10:12:40.780+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 10:12:40.780+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 10:17:40.786+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [159]:  Starting check pointing...
+2017-03-12 10:17:40.786+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [159]:  Starting store flush...
+2017-03-12 10:17:41.300+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 159 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 10:17:41.302+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 159 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 10:17:41.414+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [159]:  Store flush completed
+2017-03-12 10:17:41.414+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [159]:  Starting appending check point entry into the tx log...
+2017-03-12 10:17:41.455+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [159]:  Appending check point entry into the tx log completed
+2017-03-12 10:17:41.455+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [159]:  Check pointing completed
+2017-03-12 10:17:41.455+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 10:17:41.455+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 10:24:05.953+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :User(uuid) with 2 unique values in sample of avg size 2 taken from index containing 2 entries
+2017-03-12 10:24:11.463+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [160]:  Starting check pointing...
+2017-03-12 10:24:11.463+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [160]:  Starting store flush...
+2017-03-12 10:24:12.380+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 160 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 10:24:12.383+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 160 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 10:24:12.461+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [160]:  Store flush completed
+2017-03-12 10:24:12.461+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [160]:  Starting appending check point entry into the tx log...
+2017-03-12 10:24:12.524+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [160]:  Appending check point entry into the tx log completed
+2017-03-12 10:24:12.525+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [160]:  Check pointing completed
+2017-03-12 10:24:12.525+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 10:24:12.525+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 10:24:35.952+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :User(uuid) with 3 unique values in sample of avg size 3 taken from index containing 3 entries
+2017-03-12 10:24:55.952+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :User(uuid) with 4 unique values in sample of avg size 4 taken from index containing 4 entries
+2017-03-12 10:29:12.530+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [162]:  Starting check pointing...
+2017-03-12 10:29:12.530+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [162]:  Starting store flush...
+2017-03-12 10:29:13.481+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 162 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 10:29:13.483+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 162 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b].
+2017-03-12 10:29:13.565+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [162]:  Store flush completed
+2017-03-12 10:29:13.565+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [162]:  Starting appending check point entry into the tx log...
+2017-03-12 10:29:13.625+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [162]:  Appending check point entry into the tx log completed
+2017-03-12 10:29:13.625+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [162]:  Check pointing completed
+2017-03-12 10:29:13.625+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 10:29:13.625+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 11:13:03.670+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [168]:  Starting check pointing...
+2017-03-12 11:13:03.677+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [168]:  Starting store flush...
+2017-03-12 11:13:04.501+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 168 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 11:13:04.503+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 168 to [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/vijeta/Desktop/huff_post/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-03-12 11:13:04.595+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [168]:  Store flush completed
+2017-03-12 11:13:04.595+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [168]:  Starting appending check point entry into the tx log...
+2017-03-12 11:13:04.646+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [168]:  Appending check point entry into the tx log completed
+2017-03-12 11:13:04.646+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [168]:  Check pointing completed
+2017-03-12 11:13:04.647+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 11:13:04.647+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 14:08:38.720+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3414ms.
+2017-03-12 14:42:12.727+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 3326ms.
+2017-03-12 16:59:07.419+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Shutdown started
+2017-03-12 16:59:07.420+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now unavailable
+2017-03-12 16:59:07.435+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [168]:  Starting check pointing...
+2017-03-12 16:59:07.435+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [168]:  Starting store flush...
+2017-03-12 16:59:08.213+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [168]:  Store flush completed
+2017-03-12 16:59:08.213+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [168]:  Starting appending check point entry into the tx log...
+2017-03-12 16:59:08.277+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [168]:  Appending check point entry into the tx log completed
+2017-03-12 16:59:08.277+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [168]:  Check pointing completed
+2017-03-12 16:59:08.277+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-03-12 16:59:08.277+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-03-12 16:59:08.821+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2017-03-12 16:59:08.822+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
